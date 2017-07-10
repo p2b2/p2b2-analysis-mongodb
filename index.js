@@ -1,4 +1,4 @@
-const mongoConnector = require("../../dataextractor/connectors/mongodb/index.js")
+const mongoConnector = require("p2b2-connector-mongodb")
 const winston = require("winston")
 const Web3 = require("web3")
 var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
